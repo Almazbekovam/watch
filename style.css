@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#main {
+  background: rgba(220, 220, 220, 0.555);
+  padding-bottom: 50px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.main img {
+  width: 420px;
+  margin-right: 60px;
+}
+
+.main_text a {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.main_text h1 {
+  margin: 30px 0 15px 0;
+  font-size: 250px;
+  font-weight: 200;
+}
+
+.main_text p {
+  width: 580px;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 45px;
+  margin: 20px 0;
+}
+
+.main_action {
+  display: flex;
+}
+
+.buy button {
+  background: black;
+  color: aliceblue;
+  width: 278px;
+  height: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.price {
+  width: 200px;
+  height: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  background: white;
+}
+.price h5 {
+  font-weight: 200;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.info {
+  padding: 80px 0;
+}
+
+.info_top a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 200;
+  color: black;
+}
+
+.info_top h3 {
+  padding-top: 26px;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.background_box {
+  margin: 30px 0;
+  width: 350px;
+  background: rgba(220, 220, 220, 0.555);
+  padding: 60px 30px;
+}
+
+.background_box_three {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(220, 220, 220, 0.555);
+  padding: 60px 30px;
+  margin: 30px 0 25px 0;
+}
+
+.background_box img {
+  width: 155px;
+}
+
+.background_box_three .watch_3 {
+  width: 270px;
+  padding: 60px 30px;
+}
+.info_text h6 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.info_text p {
+  width: 580px;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 45px;
+  margin: 20px 0;
+}
+.info_text_end {
+  padding: 80px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_text_end h6 {
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.info_text_end p {
+  width: 480px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+}
+.info_text_end p a {
+  font-weight: 300;
+  text-decoration: none;
+  color: rgba(255, 166, 0, 0.895);
+}
+
+.hr {
+  width: 95px;
+  margin-bottom: 20px;
+}
